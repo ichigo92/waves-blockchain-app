@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+import WavesSigner from './WavesSigner';
+
 
 function App() {
   const auth = () => {
@@ -34,6 +36,7 @@ function App() {
         <div className="container">
           <input className="btn btn-primary" type="submit" value="Auth" onClick={() => auth()}/>
         </div>
+        <WavesSigner />
       </header>
     </div>
   );
